@@ -22,7 +22,7 @@ body {
   gap: 40px;
 }
 
-.calendar .months-container .months-container {
+.calendar .months-container .month-container {
   background: #fff;
   padding: 20px;
   min-width: 280px;
@@ -44,5 +44,22 @@ table.month thead tr:nth-child(2) th:last-child  {
 }
 
 .calendar table.month td.day .day-content {
-  padding: 6px 8px
+  padding: 6px 8px;
+}
+
+.calendar table.month th.day-header {
+  color: #777;
+  font-size: 0.9em;
+  font-weight: 700;
+}
+
+.month tr td {
+  font-size: 0.9em;
+  font-weight: 500;
+  color: #777;
+}
+
+table.month td.day .day-content:hover {
+  background: #f75c90;
+  color: #fff;
 }
